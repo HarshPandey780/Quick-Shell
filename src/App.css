@@ -1,0 +1,28 @@
+/* src/App.css */
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.kanban-board {
+  display: flex;
+  flex-direction: column;
+}
+
+.group-selector,
+#sort-by {
+  margin: 10px 0;
+}
+
+.group {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.ticket-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #f9f9f9;
+}
